@@ -4,7 +4,7 @@
 Project IP: http://178.128.12.115/
 
 
-I have deploy the Item Catalog project to a linux server (Digital Ocean).
+I have deployed the Item Catalog project to a linux server (Digital Ocean).
 
 Github link to the Item catalog Project: https://github.com/MahmoudSoliman922/Item-list.git
 
