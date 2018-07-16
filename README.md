@@ -1,6 +1,6 @@
 # Linux Server Configuration
 
-> Project url: http://my-list.club
+Project url: http://my-list.club
 Project IP: http://178.128.12.115/
 
 
