@@ -43,12 +43,6 @@ Update currently installed packages, run the following command-
 ```sh
 sudo apt-get update
 sudo apt-get upgrade
-# security updates
-sudo apt-get install unattended-upgrades
-# install them manually
-sudo unattended-upgrades
-# sudo is actually not required in case of DO but never mind :)
-# sudo apt-get -u upgrade # checks list of updates
 ```
 
 
@@ -129,14 +123,14 @@ ssh-keygen
 ```sh
 (\home\.ssh\Auth_Key) #I gave it password ("1234554321")
 ```
-3- Open the filename.pub
+3- Open the Auth_Key.pub
 4- copy the contents. (contents are provided in the instructor notes)
 5- And then on the grader account run the following commands:
 ```sh
 mkdir .ssh
 chmod 700 .ssh
 nano .ssh/authorized_keys
-#paste the content of filename.pub here
+#paste the content of Auth_Key.pub here
 chmod 644 .ssh/authorized_keys
 ```
 
